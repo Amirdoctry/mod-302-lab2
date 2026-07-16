@@ -1,5 +1,9 @@
 body{
+    display: flex;
     background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .card{
     background-color: white;
@@ -7,12 +11,21 @@ body{
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     max-width: 350px;
-    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     
 }
 .card-image{
     width: 100%;
     display: block;
+}
+span{
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 25px;
 }
 .tag{
     border-radius: 25px;
